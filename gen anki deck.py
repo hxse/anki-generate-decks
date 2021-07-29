@@ -30,6 +30,6 @@ my_deck.add_note(my_note)
 my_package = genanki.Package(my_deck)
 my_package.media_files = ['./data/IELTS/crawler/0/0_001.mp3']
 
-my_package.write_to_file('output.apkg')
+my_package.write_to_file('./output/output.apkg')
 
 print(my_note)
